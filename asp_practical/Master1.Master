@@ -1,0 +1,50 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Master1.master.vb" Inherits="asp_practical.Master1" %>
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="Header" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .header{
+            text-align:center;
+            width:100%;
+            height:80px;
+            background-color:Orange;
+            font-size:30px;
+        }
+        li{
+            float:left;
+            padding:10px;
+            list-style:none;
+            font-size:20px;
+        }
+        .footer{
+            text-align:center;
+            background-color:Fuchsia;
+            font-size:30px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+    Tapi Diploma Engineering College
+    <ul>
+        <li><asp:HyperLink ID="HL1" runat="server" NavigateUrl="~/p10.aspx">Home</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HL2" runat="server" NavigateUrl="~/p10_1.aspx">About</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HL3" runat="server">Contact</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HL4" runat="server">Gallery</asp:HyperLink></li>
+    </ul>
+    </div>
+    <asp:ContentPlaceHolder ID="Footer" runat="server">
+    </asp:ContentPlaceHolder>
+    <div class="footer">
+    Thank you for visiting
+    </div>
+    </form>
+</body>
+</html>

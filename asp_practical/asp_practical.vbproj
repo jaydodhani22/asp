@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{4F38DEAF-B39E-4D83-8012-091C99BB8E7E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>asp_practical</RootNamespace>
+    <AssemblyName>asp_practical</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>asp_practical.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>asp_practical.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1opener.aspx" />
+    <Content Include="App_Themes\Theme1\Css1.css" />
+    <Content Include="App_Themes\Theme2\Css2.css" />
+    <Content Include="e01.aspx" />
+    <Content Include="e02.aspx" />
+    <Content Include="e03.aspx" />
+    <Content Include="e04.aspx" />
+    <Content Include="e05.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="ex.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Image\About.jpg" />
+    <Content Include="Image\e5.JPG" />
+    <Content Include="Image\google.png" />
+    <Content Include="Image\Logo.jpeg" />
+    <Content Include="Image\stu.JPG" />
+    <Content Include="Image\student.JPG" />
+    <Content Include="Image\Tapi.jpg" />
+    <Content Include="p08.aspx" />
+    <Content Include="p10.aspx" />
+    <Content Include="p10_1.aspx" />
+    <Content Include="p11.aspx" />
+    <Content Include="p11_1.aspx" />
+    <Content Include="p12.aspx" />
+    <Content Include="p12_1.aspx" />
+    <Content Include="p13.aspx" />
+    <Content Include="p13_1.aspx" />
+    <Content Include="p14.aspx" />
+    <Content Include="p15.aspx" />
+    <Content Include="p16.aspx" />
+    <Content Include="p17.aspx" />
+    <Content Include="p17_1.aspx" />
+    <Content Include="p18.aspx" />
+    <Content Include="p19.aspx" />
+    <Content Include="p02.aspx" />
+    <Content Include="p20.aspx" />
+    <Content Include="p21.aspx" />
+    <Content Include="p22.aspx" />
+    <Content Include="p23.aspx" />
+    <Content Include="p03.aspx" />
+    <Content Include="p04.aspx" />
+    <Content Include="p05.aspx" />
+    <Content Include="p06.aspx" />
+    <Content Include="p07.aspx" />
+    <Content Include="p07.css" />
+    <Content Include="p09.aspx" />
+    <Content Include="p09_1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1opener.aspx.designer.vb">
+      <DependentUpon>1opener.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1opener.aspx.vb">
+      <DependentUpon>1opener.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="e01.aspx.designer.vb">
+      <DependentUpon>e01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="e01.aspx.vb">
+      <DependentUpon>e01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="e02.aspx.designer.vb">
+      <DependentUpon>e02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="e02.aspx.vb">
+      <DependentUpon>e02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="e03.aspx.designer.vb">
+      <DependentUpon>e03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="e03.aspx.vb">
+      <DependentUpon>e03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="e04.aspx.designer.vb">
+      <DependentUpon>e04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="e04.aspx.vb">
+      <DependentUpon>e04.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="e05.aspx.designer.vb">
+      <DependentUpon>e05.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="e05.aspx.vb">
+      <DependentUpon>e05.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex.aspx.designer.vb">
+      <DependentUpon>ex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex.aspx.vb">
+      <DependentUpon>ex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Master1.Master.designer.vb">
+      <DependentUpon>Master1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master1.Master.vb">
+      <DependentUpon>Master1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NestedMaster1.master.designer.vb">
+      <DependentUpon>NestedMaster1.master</DependentUpon>
+    </Compile>
+    <Compile Include="NestedMaster1.master.vb">
+      <DependentUpon>NestedMaster1.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p08.aspx.designer.vb">
+      <DependentUpon>p08.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p08.aspx.vb">
+      <DependentUpon>p08.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="p10.aspx.designer.vb">
+      <DependentUpon>p10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p10.aspx.vb">
+      <DependentUpon>p10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p10_1.aspx.designer.vb">
+      <DependentUpon>p10_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p10_1.aspx.vb">
+      <DependentUpon>p10_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p11.aspx.designer.vb">
+      <DependentUpon>p11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p11.aspx.vb">
+      <DependentUpon>p11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p11_1.aspx.designer.vb">
+      <DependentUpon>p11_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p11_1.aspx.vb">
+      <DependentUpon>p11_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p12.aspx.designer.vb">
+      <DependentUpon>p12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p12.aspx.vb">
+      <DependentUpon>p12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p12_1.aspx.designer.vb">
+      <DependentUpon>p12_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p12_1.aspx.vb">
+      <DependentUpon>p12_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p13.aspx.designer.vb">
+      <DependentUpon>p13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p13.aspx.vb">
+      <DependentUpon>p13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p13_1.aspx.designer.vb">
+      <DependentUpon>p13_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p13_1.aspx.vb">
+      <DependentUpon>p13_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p14.aspx.designer.vb">
+      <DependentUpon>p14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p14.aspx.vb">
+      <DependentUpon>p14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p15.aspx.designer.vb">
+      <DependentUpon>p15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p15.aspx.vb">
+      <DependentUpon>p15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p16.aspx.designer.vb">
+      <DependentUpon>p16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p16.aspx.vb">
+      <DependentUpon>p16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p17.aspx.designer.vb">
+      <DependentUpon>p17.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p17.aspx.vb">
+      <DependentUpon>p17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p17_1.aspx.designer.vb">
+      <DependentUpon>p17_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p17_1.aspx.vb">
+      <DependentUpon>p17_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p18.aspx.designer.vb">
+      <DependentUpon>p18.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p18.aspx.vb">
+      <DependentUpon>p18.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p19.aspx.designer.vb">
+      <DependentUpon>p19.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p19.aspx.vb">
+      <DependentUpon>p19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p02.aspx.designer.vb">
+      <DependentUpon>p02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p02.aspx.vb">
+      <DependentUpon>p02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p20.aspx.designer.vb">
+      <DependentUpon>p20.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p20.aspx.vb">
+      <DependentUpon>p20.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p21.aspx.designer.vb">
+      <DependentUpon>p21.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p21.aspx.vb">
+      <DependentUpon>p21.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p22.aspx.designer.vb">
+      <DependentUpon>p22.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p22.aspx.vb">
+      <DependentUpon>p22.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p23.aspx.designer.vb">
+      <DependentUpon>p23.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p23.aspx.vb">
+      <DependentUpon>p23.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p03.aspx.designer.vb">
+      <DependentUpon>p03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p03.aspx.vb">
+      <DependentUpon>p03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p04.aspx.designer.vb">
+      <DependentUpon>p04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p04.aspx.vb">
+      <DependentUpon>p04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p05.aspx.designer.vb">
+      <DependentUpon>p05.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p05.aspx.vb">
+      <DependentUpon>p05.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p06.aspx.designer.vb">
+      <DependentUpon>p06.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p06.aspx.vb">
+      <DependentUpon>p06.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p07.aspx.designer.vb">
+      <DependentUpon>p07.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p07.aspx.vb">
+      <DependentUpon>p07.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p09.aspx.designer.vb">
+      <DependentUpon>p09.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p09.aspx.vb">
+      <DependentUpon>p09.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="p09_1.aspx.designer.vb">
+      <DependentUpon>p09_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="p09_1.aspx.vb">
+      <DependentUpon>p09_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Theme1\Skin1.skin" />
+    <Content Include="App_Themes\Theme2\Skin2.skin" />
+    <Content Include="Master1.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="NestedMaster1.master" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49742</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Master1.Master" AutoEventWireup="false" CodeBehind="NestedMaster1.master.vb" Inherits="asp_practical.NestedMaster1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Header" runat="server">
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+    #left
+    {
+        float :left;
+        width :20%;
+        height:600px;
+        background-color:Teal;
+        color:lime;
+        font-size:50px;
+        text-align:center;  
+    }
+    #right
+    {
+        float:right;
+        width:80%;
+        height:600px;
+        background-color:Purple;
+    }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Footer" runat="server">
+    <div id ="left">
+    <asp:Image ID="I1" runat="server" ImageUrl="~/Image/Logo.jpeg" Width="100%" />
+    Welcome to Tapi Diploma Engineering College
+    </div>
+    <div id ="right">
+    <asp:ContentPlaceHolder ID="Right" runat="server">
+
+    </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
